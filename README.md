@@ -1,4 +1,4 @@
 The Polygenic Risk Scores Combinations Project is one we started in August 2023. In this repository, you will find the code we used to clean our data and perform our analyses. The primary aim of this project is to show that combining polygenic risk scores across multiple genome-wide association studies is better at predicting risk for a complex disorder. Our disease of interest is Alzheimer's disease.
 We calculated polygenic risk scores for 808 individuals from the Alzheimer's Disease Neuroimaging Initiative (ADNI) using the Polygenic Risk Scores Knowledge Base commmand-line interface (CLI). Then, using a variety of mathematical and machine-learning techniques, we evaluated the best combinations at predicting disease state. 
-The Polygenic Risk Scores Knowledge Base is an online or CLI polygenic risk scores calculator. 
+The Polygenic Risk Scores Knowledge Base is an online or CLI polygenic risk scores calculator, which contains all GWAs summary statistics from the NHGRI-EBI GWAs Catalog, updated monthly.
 Visit the Polygenic Risk Scores Knowledge Base at: https://prs.byu.edu/
