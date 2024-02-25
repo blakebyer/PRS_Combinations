@@ -13,7 +13,6 @@ har <- read.xlsx(excel_path, sheetName = "Sheet1", colIndex = 31, startRow =2)
 df <- data.frame(dx, ar, geo, har)
 colnames(df) <- c('DX','AR','GEO','HAR') 
 
-
 # Megagraphs
 plot(density(df$AR), main = "Arithmetic Mean", xlab = "PRS", col = 'black', lwd = 2)
 
@@ -23,7 +22,7 @@ plot(density(df$HAR), main = "Harmonic Mean", xlab = "PRS", col = 'black', lwd =
 
 ## Chi-squared
 
-# Count of case conditions in entire population
+# Count of case conditions in entire population. CN is cognitively normal, CI is cognitively impaired.
 cn_count <- length(which(dx == "CN"))
 ci_count <- length(which(dx == "MCI")) + length(which(dx == "Dementia"))
 
@@ -56,10 +55,3 @@ chi_sq_calc <- function(meantype, percentile) {
 ## Example Usage
 chi_sq_calc("GEO", 0.8)
 chi_sq_calc("GEO",0.9)
-
-
-
-
-
-
-
