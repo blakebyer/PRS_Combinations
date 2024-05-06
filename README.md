@@ -20,14 +20,18 @@ python -m pip install scipy
 ```
 ## Usage
 The Polygenic Risk Scores Knowledge Base is an online or CLI polygenic risk scores calculator, which contains GWAs summary statistics from the NHGRI-EBI GWAs Catalog.
-Visit the Polygenic Risk Scores Knowledge Base at: [PRSKB](https://prs.byu.edu/) or [PRSKB Github](https://github.com/kauwelab/PolyRiskScore.git)
+Visit the Polygenic Risk Scores Knowledge Base at: [PRSKB](https://prs.byu.edu/)
+
+Or clone the GitHub PRSKB repository:
 
 ``` git clone https://github.com/kauwelab/PolyRiskScore.git ```
 
 To use the PRS Combinations Software:
+
 ``` git clone https://github.com/jmillerlab/PRS_Combinations.git ```
 
 ### Functions
+The main prs_combinations.py file has the following functions to clean, sort, and analyze your data:
 - Sort PRSKB Output by Reported Trait
 - Sort by Diagnosis
 - Sort by Demographics
@@ -40,6 +44,14 @@ To use the PRS Combinations Software:
 - Plot the Results
 
 ### Examples
+```
+def filter_df(tsv_df,trait1,trait2):
+    #Create Filtered Dataframe for Reported Trait
+    tsv_df = tsv_df[tsv_df['Reported Trait'].str.contains(trait1|trait2, case=False, regex=True)].reset_index(drop=True)
+    return tsv_df
+
+filter_df(tsv_df, 'Alzheimer','Dementia')
+```
 
 ## Tests
 
