@@ -42,6 +42,7 @@ The standard output is a single comma-separated values (.csv) file, but you may 
 3. XLSX (Excel)
 
 ### Functions
+
 The main prs_combinations.py file has the following functions to clean, sort, and analyze your data:
 - Sort PRSKB Output by Reported Trait
 - Sort by Diagnosis
@@ -54,7 +55,32 @@ The main prs_combinations.py file has the following functions to clean, sort, an
 - Chi-Squared Test
 - Plot the Results
 
-### Examples
+### Data Processing
+The data from the PRSKB goes through several processing steps until it is useful. These can be summarized with the following steps:
+1. Sorting
+    - By Trait
+    - By PRS Score Type (Odds Ratio, Beta, Percentiles)
+    - By Study ID
+    - By Sample
+    - By Demographics
+        - Exam Date
+        - Sex
+        - Age
+        - Ethnicity 
+    - Etc.
+2. Cleaning
+    - Deleting GWAS that cannot compute PRS for all individuals
+    - Deleting GWAS that are inaccurate and imprecise. Low variation PRS.
+4. Merging
+   - Merging of PRSKB output and demographics information
+5. Analysis
+   - Calculate mean PRS
+   - Kolmogorov-Smirnov Test
+   - Mann-Whitney U Test
+   - Chi-squared Test
+   - Plotting
+
+#### Examples
 
 ```
 def filter_df(tsv_df,trait1,trait2):
