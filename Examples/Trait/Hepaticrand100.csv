@@ -1,0 +1,101 @@
+Sample,Study ID,Reported Trait,Trait,Citation,P-Value Annotation,Beta Annotation,Score Type,Units (if applicable),Used Super Population,SNPs Excluded Due To Cutoffs,SNP Overlap,Included SNPs,Polygenic Risk Score,Percentile,Protective Variants,Risk Variants,Variants Without Risk Allele,Variants in High LD
+053_S_2357,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(ak4),,beta,unit,EUR,0,1,1,NF,,.,.,rs78767555,.
+037_S_4030,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(nucb1),,beta,unit,EUR,0,3,3,0.004775,99-100,.,rs1337602,rs148522108|rs1337602|rs76799473,.
+014_S_4079,GCST000248,Liver Enzyme Levels,Liver Enzyme Measurement,Yuan et al. 2008,(alp),,beta,U/L,EUR,0,5,5,0.006,63-89,.,rs9467160|rs12355784,rs4962153|rs657152|rs1780324|rs9467160|rs12355784,rs10761779
+128_S_0205,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(gstk1),,beta,unit,EUR,0,3,3,NF,,.,.,rs76162880|rs74144838|rs60181108,.
+098_S_4018,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(gstk1),,beta,unit,EUR,0,3,3,NF,,.,.,rs76162880|rs74144838|rs60181108,.
+128_S_2130,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(cast),,beta,unit,EUR,0,2,2,NF,,.,.,rs78667661|rs114234549,.
+014_S_2308,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(atox1),,beta,unit,EUR,0,5,5,NF,,.,.,rs116071488|rs78667661|rs77634221|rs75276363|rs72696880,.
+116_S_4195,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(tat),,beta,unit,EUR,0,1,1,NF,,.,.,rs181003626,.
+037_S_4308,GCST001815,Hepatitis C Induced Liver Cirrhosis,Hepatitis C Induced Liver Cirrhosis,Urabe et al. 2013,,,OR,,EUR,0,4,4,1.1106466448151415,83,.,rs3817963|rs3135363,rs3135363|rs910049|rs9405098,rs3129860
+022_S_4291,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(tkfc),,beta,unit,EUR,0,1,1,NF,,.,.,rs6867370,.
+037_S_0377,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(acot13),,beta,unit,EUR,0,2,2,NF,,.,.,rs74994249|rs113721258,.
+123_S_4127,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(hnrnpab),,beta,unit,EUR,0,1,1,0.02302,100,.,rs117226492,rs117226492,.
+099_S_2146,GCST010418,Liver Fibrosis And Steatohepatitis Severity (Mri Ct1 Measure),Liver Disease Biomarker,Parisinos et al. 2020,,,beta,unit,EUR,0,6,7,0.05134271411639576,96,.,rs759359281|rs4820268|rs13107325|rs738409,rs13107325|rs1800562|rs4820268|rs738409|rs58542926|rs111723834,.
+006_S_4546,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(acot13),,beta,unit,EUR,0,2,2,NF,,.,.,rs74994249|rs113721258,.
+068_S_0802,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(lrpprc),,beta,unit,EUR,0,1,1,NF,,.,.,rs6040537,.
+023_S_4034,GCST000765,Non-Alcoholic Fatty Liver Disease Histology (Other),Non-Alcoholic Fatty Liver Disease,Chalasani et al. 2010,(steatosis),,beta,unit,EUR,0,4,4,0.0925,50-72,.,rs2358462|rs4243849,rs9977253|rs2358462|rs643608|rs4243849,.
+021_S_2100,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(ddt),,beta,unit,EUR,0,7,9,0.15577222222222223,66-72,rs767922151|rs5760124,rs4822455|rs5760096|rs2070767|rs6004011|rs1320793225,rs5760124|rs4822455|rs4822461|rs5760096|rs2070767|rs915590|rs6004011,rs2236620|rs5760093|rs1007888|rs875643|rs2877177|rs738806
+135_S_4406,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(bhmt),,beta,unit,EUR,0,5,5,NF,,.,.,rs16876394|rs9905752|rs921943|rs116212251|rs115217552,.
+037_S_4302,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(arg1),,beta,unit,EUR,0,2,4,0.0026665029095999325,97,.,rs150257085|rs1378360434,rs116756205|rs60131401,.
+023_S_0042,GCST000766,Non-Alcoholic Fatty Liver Disease Histology (Lobular),Non-Alcoholic Fatty Liver Disease,Chalasani et al. 2010,,,beta,unit,EUR,0,13,13,0.08846153846153844,60,rs10954668|rs4237591|rs9584805,rs10067427|rs2986971|rs11083271|rs7632299|rs1227756|rs887304,rs10067427|rs10954668|rs2216228|rs9584805|rs11083271|rs6591182|rs2645424|rs7632299|rs1227756|rs887304|rs7077164,.
+052_s_4626,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(crot),,beta,unit,EUR,0,1,1,NF,,.,.,rs112716054,.
+029_S_4279,GCST000765,Non-Alcoholic Fatty Liver Disease Histology (Other),Serum Alanine Aminotransferase Measurement,Chalasani et al. 2010,(alt),,beta,unit,EUR,0,3,3,0.05499999999999999,47-51,rs894177,rs2800,rs2800|rs1305088|rs894177,.
+022_S_1097,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(sat2),,beta,unit,EUR,0,1,1,NF,,.,.,rs9901675,.
+127_S_0112,GCST004757,Alcohol Dependence Or Chronic Alcoholic Pancreatitis Or Alcohol-Related Liver Cirrhosis,Alcoholic Liver Cirrhosis,Treutlein et al. 2017,,,OR,,EUR,0,3,3,1.0610161848844917,45-49,.,rs2028201|rs454510,rs2028201|rs10392|rs454510,.
+023_S_2068,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(orm2),,beta,unit,EUR,0,9,9,NF,,.,.,rs79609101|rs278835|rs227404|rs117283712|rs61854888|rs118129757|rs138397133|rs188879837|rs73860416,.
+137_S_0800,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(polr2h),,beta,unit,EUR,0,3,3,NF,,.,.,rs78036822|rs13436875|rs629229,.
+130_S_4605,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(igha1),,beta,unit,EUR,0,1,1,NF,,.,.,rs145173555,.
+027_S_0118,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(hspb1),,beta,unit,EUR,0,1,1,NF,,.,.,rs73241528,.
+023_S_0042,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(txnrd1),,beta,unit,EUR,0,2,2,0.0050725,93-98,.,rs78033763,rs115669506|rs78033763,.
+029_S_1318,GCST008469,Liver Fibrosis In Non-Alcoholic Fatty Liver Disease,Hepatic Fibrosis,Namjou et al. 2019,,,beta,unit,EUR,0,16,16,0.03610121875,26,rs72680117,rs12373751|rs6972194|rs2651424,rs72680117|rs1953124|rs12373751|rs6972194|rs34057381|rs72943235|rs11794552|rs859472|rs34637163|rs2651424|rs59531931|rs13132061|rs698718|rs497408|rs4904585|rs149074870,rs6499186
+016_S_1117,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(fth1),,beta,unit,EUR,0,8,8,NF,,.,.,rs11935448|rs76585299|rs6472373|rs114819003|rs76964356|rs115260212|rs79194530|rs73452628,.
+022_S_0096,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(ugt1a9),,beta,unit,EUR,0,1,1,NF,,.,.,rs15392,.
+128_S_2151,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(mylk),,beta,unit,EUR,0,1,1,NF,,.,.,rs112122257,.
+072_S_1380,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(tmsb10),,beta,unit,EUR,0,1,2,0.00021148122138452135,92-93,.,rs377422139,rs78667661,.
+128_S_0200,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(ran),,beta,unit,EUR,0,1,1,NF,,.,.,rs1515493,.
+072_S_2072,GCST007897,Liver Injury In Anti-Tuberculosis Drug Treatment,Tuberculosis,Suvichapanich et al. 2019,(recessive),,OR,,EUR,0,1,1,6.01,40-100,.,rs1495741,.,.
+012_S_4012,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(akr7a3),,beta,unit,EUR,0,4,4,0.140125,97-98,.,rs117554123,rs192659519|rs117554123|rs80124836|rs16876265,.
+021_S_4419,GCST000765,Non-Alcoholic Fatty Liver Disease Histology (Other),Cirrhosis Of Liver,Chalasani et al. 2010,(ballon tt),,beta,unit,EUR,0,2,2,NF,,.,.,rs10510146|rs959903,.
+094_S_4434,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(pnp),,beta,unit,EUR,0,1,1,NF,,.,.,rs1049564,.
+022_S_1351,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(agt),,beta,unit,EUR,0,12,12,NF,,.,.,rs75220716|rs145002786|rs75461412|rs145744285|rs117065854|rs75133308|rs79509159|rs115457172|rs41276572|rs9536647|rs11920869|rs116045734,.
+002_S_0729,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(ddt),,beta,unit,EUR,0,7,9,-0.127,0-25,rs767922151|rs5760124,rs1320793225,rs4822455|rs5760096|rs4822461|rs2070767|rs915590|rs6004011,rs2236620|rs5760093|rs1007888|rs875643|rs2877177|rs738806
+007_S_4272,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(psmd1),,beta,unit,EUR,0,2,3,0.0,1-100,rs36228198,.,rs10189970|rs7788604,.
+002_S_0413,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(anxa6),,beta,unit,EUR,0,2,4,0.0,0-96,.,rs942015519|rs1178378997,rs11049237|rs72724537,.
+031_S_2233,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(akr1c3),,beta,unit,EUR,0,8,8,NF,,.,.,rs78033763|rs150287510|rs150356982|rs79362307|rs72722097|rs142325905|rs183877493|rs76126356,.
+003_S_4288,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(ak2),,beta,unit,EUR,0,1,1,NF,,.,.,rs73307806,.
+032_S_1169,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(eif4a1),,beta,unit,EUR,0,4,4,NF,,.,.,rs1515493|rs12547447|rs59490780|rs148930818,.
+003_s_0981,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(hspa8),,beta,unit,EUR,0,5,5,NF,,.,.,rs77287453|rs79348019|rs111858825|rs74349103|rs112656640,.
+023_s_4502,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(sult1a1),,beta,unit,EUR,0,6,6,0.11771666666666665,97,rs4788073,rs149692285,rs55738171|rs149692285|rs75524429|rs4788073|rs1223326765|rs116727414,.
+014_S_0563,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(hint2),,beta,unit,EUR,0,3,3,NF,,.,.,rs28416452|rs76614752|rs2785504,.
+136_S_4189,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(asah1),,beta,unit,EUR,0,4,5,0.0,0-82,.,rs111606434,rs74630977|rs142101524|rs113996630|rs117723948,.
+019_S_4252,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(gstt1),,beta,unit,EUR,0,5,7,0.0035928571428571416,59,rs4822455|rs1320793225,rs767922151|rs5760124,rs4822455|rs5760124|rs5760096|rs6004011|rs9608209,rs1007888|rs2236620|rs875643
+153_S_2109,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(rtn4),,beta,unit,EUR,0,1,1,NF,,.,.,rs12079672,.
+057_S_0934,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(hspa8),,beta,unit,EUR,0,5,5,NF,,.,.,rs77287453|rs79348019|rs111858825|rs74349103|rs112656640,.
+037_S_0501,GCST003792,Liver Injury In Anti-Tuberculosis Drug Treatment,Drug-Induced Liver Injury,Petros et al. 2016,,,OR,,EUR,0,2,2,NF,,.,.,rs320035|rs10946737,.
+073_S_4312,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(tpm3),,beta,unit,EUR,0,3,3,NF,,.,.,rs62078244|rs72655737|rs74411983,.
+036_S_4430,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(ahnak),,beta,unit,EUR,0,4,4,NF,,.,.,rs114234549|rs76686504|rs137953979|rs61757087,.
+031_S_4149,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(lrg1),,beta,unit,EUR,0,11,15,0.0027943333333333336,98-99,.,rs112551059|rs56772770|rs61088337|rs1157610362|rs112858791|rs1263572530,rs73542871|rs28477973|rs74148523|rs374598319|rs79297743|rs61088337|rs6054852|rs73866789|rs112858791|rs74063328|rs61758983,.
+094_S_4282,GCST008468,Nonalcoholic Fatty Liver Disease,Non-Alcoholic Fatty Liver Disease,Namjou et al. 2019,,,OR,,EUR,0,14,14,1.0419641398106063,25-26,.,rs913295|rs6936723|rs738409,rs61950023|rs61951503|rs113180498|rs913295|rs71413689|rs4439433|rs56408111|rs6936723|rs45607632|rs117542855|rs738409|rs2980888|rs72996252|rs28946269,rs61951392|rs112845472
+037_S_4030,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(actn4),,beta,unit,EUR,0,4,4,NF,,.,.,rs445265|rs1459718|rs73104194|rs61589039,.
+032_S_2240,GCST004807,Immunoglobulin Light Chain (Al) Amyloidosis (Liver Involvement),Al Amyloidosis,Meziane et al. 2017,,,OR,,EUR,0,1,1,1.3638181696985856,0-22,.,rs7820212,rs7820212,.
+007_S_4387,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(sult2a1),,beta,unit,EUR,0,2,2,-0.30075,3-28,rs296393,.,rs296393|rs72886407,rs296390
+014_S_4328,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(amacr),,beta,unit,EUR,0,6,6,NF,,.,.,rs35150263|rs5030500|rs114766077|rs147549273|rs28523705|rs144623872,.
+003_S_4136,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(cap1),,beta,unit,EUR,0,2,2,NF,,.,.,rs117440655|rs147310698,.
+098_S_4003,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(anxa1),,beta,unit,EUR,0,1,1,NF,,.,.,rs10847025,.
+037_S_4146,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(lum),,beta,unit,EUR,0,10,10,0.008755,72-77,.,rs1783920,rs16893618|rs72703425|rs1783920|rs77203023|rs116859406|rs117306194|rs17070213|rs76669366|rs7872785|rs139767429,rs118033375
+018_S_4257,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(rbks),,beta,unit,EUR,0,1,1,NF,,.,.,rs140948699,.
+153_S_4297,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(cfl2),,beta,unit,EUR,0,2,2,NF,,.,.,rs151169120|rs28880977,.
+023_S_4115,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(gclc),,beta,unit,EUR,0,2,2,NF,,.,.,rs151169120|rs28574846,.
+136_S_0695,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(lrrk2),,beta,unit,EUR,0,7,7,NF,,.,.,rs191257456|rs113050717|rs150336778|rs114818057|rs78202402|rs868625852|rs56397838,.
+116_S_4167,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(agrn),,beta,unit,EUR,0,2,2,NF,,.,.,rs77130839|rs73074853,.
+023_s_4502,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(gatd3a),,beta,unit,EUR,0,1,1,NF,,.,.,rs12304955,.
+099_S_2205,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(gyg2),,beta,unit,EUR,0,4,4,0.001134125,0-99,.,rs7800804,rs6724035|rs10203042|rs73809689|rs7800804,.
+031_S_4194,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(psmd1),,beta,unit,EUR,0,2,3,0.0,1-100,rs36228198,.,rs10189970|rs7788604,.
+100_S_1286,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(gstt1),,beta,unit,EUR,0,5,7,-0.014605000000000002,37-38,rs9608209|rs6004011|rs1320793225|rs4822455,rs767922151|rs5760124,rs4822455|rs5760124|rs5760096|rs6004011|rs9608209,rs1007888|rs2236620|rs875643
+098_S_0667,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(tkfc),,beta,unit,EUR,0,1,1,NF,,.,.,rs6867370,.
+035_S_4464,GCST007897,Liver Injury In Anti-Tuberculosis Drug Treatment,Tuberculosis,Suvichapanich et al. 2019,(recessive),,OR,,EUR,0,1,1,6.01,40-100,.,rs1495741,.,.
+128_S_2045,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(aco1),,beta,unit,EUR,0,3,3,NF,,.,.,rs57545017|rs114574340|rs6007718,.
+067_S_4072,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(mx1),,beta,unit,EUR,0,1,1,NF,,.,.,rs78522363,.
+094_S_2367,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(tgfbi),,beta,unit,EUR,0,1,1,NF,,.,.,rs35005720,.
+006_S_4192,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(s100a6),,beta,unit,EUR,0,11,11,NF,,.,.,rs117155764|rs78328874|rs143156117|rs34501723|rs74838395|rs114071162|rs72655737|rs141590856|rs35005720|rs146003867|rs2645646,rs75715870
+068_S_4274,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(pon1),,beta,unit,EUR,0,11,11,NF,,.,.,rs116359265|rs116159540|rs73641643|rs10190127|rs6766905|rs2716728|rs113639794|rs75385950|rs60800602|rs540406544|rs2193566,rs114687559
+067_S_4072,GCST012439,Total Antioxidant Status In Non-Alcoholic Fatty Liver Disease X Mastiha Supplementation Interaction,Mastiha Supplement Exposure Measurement,Kanoni et al. 2021,,,beta,unit,EUR,0,1,1,-0.765,32-79,rs1878686,.,rs1878686,.
+002_S_4447,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(phb),,beta,unit,EUR,0,1,1,NF,,.,.,rs140086663,.
+002_S_1280,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(lgals1),,beta,unit,EUR,0,4,4,NF,,.,.,rs73028353|rs17058153|rs139276377|rs55804733,.
+029_S_0878,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(psmb4),,beta,unit,EUR,0,2,2,-0.0088575,4-22,rs4971043|rs71515781,.,rs4971043|rs71515781,rs2769264|rs7172
+051_S_1131,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(calr),,beta,unit,EUR,0,3,3,0.1297,1-100,.,rs536621801,rs74561456|rs75772740,.
+068_S_4431,GCST001275,Liver Enzyme Levels (Alanine Transaminase),Serum Alanine Aminotransferase Measurement,Chambers et al. 2011,,,beta,%,EUR,0,4,4,0.325,2,.,rs6834314,rs2954021|rs6834314|rs10883437|rs738409,.
+022_S_4291,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(hk1),,beta,unit,EUR,0,1,2,0.0,0-100,.,rs1478797900,rs116530786,.
+130_S_0886,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(acat2),,beta,unit,EUR,0,3,3,0.0724,76-87,.,rs56263114,rs3781283|rs56263114|rs17076345,.
+006_S_4485,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(gstk1),,beta,unit,EUR,0,3,3,NF,,.,.,rs76162880|rs74144838|rs60181108,.
+128_S_2045,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(tpm3),,beta,unit,EUR,0,3,3,NF,,.,.,rs62078244|rs72655737|rs74411983,.
+041_S_4427,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(acsl4),,beta,unit,EUR,0,6,6,0.00975,93-94,.,rs76200754,rs190871933|rs11983846|rs17035813|rs76200754|rs115278147|rs76053977,.
+019_S_4548,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(snd1),,beta,unit,EUR,0,2,2,NF,,.,.,rs57810692|rs74349103,.
+036_S_0672,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(cand1),,beta,unit,EUR,0,1,1,NF,,.,.,rs1358234,.
+098_S_2079,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(fdps),,beta,unit,EUR,0,1,1,NF,,.,.,rs3781283,.
+024_S_1063,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(tagln),,beta,unit,EUR,0,9,9,NF,,.,.,rs145449227|rs532632946|rs35100567|rs116560929|rs117440655|rs2274111|rs35005720|rs7872785|rs150790890,rs146693865|rs115249787|rs118033375|rs34530779|rs150207057
+007_S_0128,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(cyp3a4),,beta,unit,EUR,0,3,5,0.0004181057472208251,1-84,.,rs2354968|rs371321633,rs2074022|rs116789945|rs34064900,.
+130_S_4660,GCST012440,Hemoglobin Levels In Non-Alcoholic Fatty Liver Disease X Mastiha Supplementation Interaction,Mastiha Supplement Exposure Measurement,Kanoni et al. 2021,,,beta,unit,EUR,0,2,2,-0.431,45-67,rs1548454,.,rs12211694|rs1548454,.
+014_S_4577,GCST000765,Non-Alcoholic Fatty Liver Disease Histology (Other),Serum Alanine Aminotransferase Measurement,Chalasani et al. 2010,(alt),,beta,unit,EUR,0,3,3,0.10166666666666667,52-70,.,rs2800,rs2800|rs1305088|rs894177,.
+068_S_4274,GCST011427,Protein Quantitative Trait Loci (Liver),Protein Measurement,He et al. 2020,(lgals1),,beta,unit,EUR,0,4,4,NF,,.,.,rs73028353|rs17058153|rs139276377|rs55804733,.
