@@ -2,7 +2,7 @@
 
 ## Introduction
 We started the Polygenic Risk Scores Combinations Project in August 2023. In this repository, you will find the code we used to clean our data and perform our analyses. The primary aim of this project is to show that combining polygenic risk scores across multiple genome-wide association studies (GWAS) is adequate at predicting risk for Alzheimer's disease.
-We calculated polygenic risk scores for 808 individuals from the Alzheimer's Disease Neuroimaging Initiative (ADNI) using the Polygenic Risk Scores Knowledge Base commmand-line interface (CLI). Then, using statistical techniques, we showed that PRS from different GWAS had variable accuracy at predicting disease risk, empashizing the need for standardized PRS calculation methods before PRS can be used in the clinic.
+We calculated polygenic risk scores for 808 individuals from the Alzheimer's Disease Neuroimaging Initiative (ADNI) using the Polygenic Risk Scores Knowledge Base (PRSKB) commmand-line interface (CLI). Then, using statistical techniques, we showed that PRS from different GWAS had variable accuracy at predicting disease risk, empashizing the need for standardized PRS calculation methods before PRS can be used in the clinic.
 
 ## Requirements
 You will need the most recent version of Python: [Download Python](https://www.python.org/downloads/)
@@ -30,6 +30,17 @@ To use the PRS Combinations Software:
 
 ``` git clone https://github.com/jmillerlab/PRS_Combinations.git ```
 
+### Input
+Your input must contain two separate files:
+1. Tab-separated values (.tsv) file which is an output of the PRSKB. See the Examples branch for an example.
+2. Comma-separated values (.csv) file which contains demographics information from patient data. See the Examples branch for an example.
+
+### Output
+The standard output is a single comma-separated values (.csv) file, but you may choose from the following outputs:
+1. CSV
+2. TSV
+3. XLSX (Excel)
+
 ### Functions
 The main prs_combinations.py file has the following functions to clean, sort, and analyze your data:
 - Sort PRSKB Output by Reported Trait
@@ -44,6 +55,7 @@ The main prs_combinations.py file has the following functions to clean, sort, an
 - Plot the Results
 
 ### Examples
+
 ```
 def filter_df(tsv_df,trait1,trait2):
     #Create Filtered Dataframe for Reported Trait
@@ -53,10 +65,8 @@ def filter_df(tsv_df,trait1,trait2):
 filter_df(tsv_df, 'Alzheimer','Dementia')
 ```
 
-## Tests
+## Acknowlegements
+Thank you to authors Hady Sabra, Blake Byer, Leah Moylan, and Justin Miller.
 
-
-## 
-
-
-
+## License
+This work is freely available for academic and not-for-profit use. However, commercial use is regulated by © 2024 University of Kentucky. All rights reserved. For more information about commercial use of this product, please contact Justin Miller, Ph.D. (justin.miller@uky.edu)
