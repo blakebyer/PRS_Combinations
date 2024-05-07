@@ -5,19 +5,20 @@ We started the Polygenic Risk Scores Combinations Project in August 2023. In thi
 We calculated polygenic risk scores for 808 individuals from the Alzheimer's Disease Neuroimaging Initiative (ADNI) using the Polygenic Risk Scores Knowledge Base (PRSKB) commmand-line interface (CLI). Then, using statistical techniques, we showed that PRS from different GWAS had variable accuracy at predicting disease risk, empashizing the need for standardized PRS calculation methods before PRS can be used in the clinic.
 
 ## Requirements
-You will need the most recent version of Python: [Download Python](https://www.python.org/downloads/)
+| Tool  | Version |
+| --- | --- |
+| Python  | 3.11+ |
+| R | 4.3+ |
 
-You must have the following packages:
-- pandas
-- numpy
-- scipy
+[Download Python](https://www.python.org/downloads/)
+[Download R](https://cran.rstudio.com/index.html)
 
-These packages can be installed with the following commands:
-```
-python -m pip install pandas
-python -m pip install numpy
-python -m pip install scipy
-```
+| Package | Version | Installation |
+| --- | --- | --- |
+| pandas | 2.0.2+ | `pip install pandas` |
+| numpy | 1.26.2+ | `pip install numpy` |
+| scipy | 1.11.4+ | `pip install scipy` |
+
 ## Usage
 This software is an accompaniment to the Polygenic Risk Scores Knowledge Base, an online or CLI polygenic risk scores calculator, which contains GWAS summary statistics from the NHGRI-EBI GWAS Catalog. Visit the Polygenic Risk Scores Knowledge Base at: [PRSKB](https://prs.byu.edu/)
 
@@ -35,9 +36,13 @@ Your input must contain two separate files:
 2. Comma-separated values (.csv) file which contains demographics information from the Alzheimer's Disease Neuroimaging Initiative. See [an example](Examples/).
 
 #### Downloadable ADNI Files Needed
-| Data  | Disk Space (Megabytes) | Download Time |
+| Data  | Disk Space (Megabytes) | Download Time (seconds) |
 | ------------- | ------------- | ------------- |
 | ADNIMERGE  | 8.17  | 3.0 |
+
+[Access ADNI Data](https://adni.loni.usc.edu/data-samples/access-data/)
+
+[Instructions for downloading ADNIMERGE Package in R](https://adni.bitbucket.io/)
 
 ### Output
 The standard output is a single comma-separated values (.csv) file, but you may choose from the following outputs:
