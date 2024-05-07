@@ -6,7 +6,7 @@ setup(
     authors='',
     url='https://github.com/jmillerlab/PRS_Combinations',
     license='LICENSE.txt',
-    description='PRS Combinations',
+    description='Polygenic Risk Scores Combinations Project',
     install_requires=[
         "pandas >= 2.0.2",
         "numpy >= 1.26.2",
