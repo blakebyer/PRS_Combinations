@@ -5,14 +5,10 @@ We started the Polygenic Risk Scores Combinations Project in August 2023. In thi
 We calculated polygenic risk scores for 808 individuals from the Alzheimer's Disease Neuroimaging Initiative (ADNI) using the Polygenic Risk Scores Knowledge Base (PRSKB) commmand-line interface (CLI). Then, using statistical techniques, we showed that PRS from different GWAS had variable accuracy at predicting disease risk, empashizing the need for standardized PRS calculation methods before PRS can be used in the clinic.
 
 ## Requirements
-| Tool  | Version |
-| --- | --- |
-| Python  | 3.11+ |
-| R | 4.3+ |
-
-[Download Python](https://www.python.org/downloads/)
-
-[Download R](https://cran.rstudio.com/index.html)
+| Tool  | Version | Installation |
+| --- | --- | --- | 
+| Python  | 3.11+ | [Python](https://www.python.org/downloads/) |
+| R | 4.3+ | [R](https://cran.rstudio.com/index.html) |
 
 | Package | Version | Installation |
 | --- | --- | --- |
