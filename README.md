@@ -11,6 +11,7 @@ We calculated polygenic risk scores for 808 individuals from the Alzheimer's Dis
 | R | 4.3+ |
 
 [Download Python](https://www.python.org/downloads/)
+
 [Download R](https://cran.rstudio.com/index.html)
 
 | Package | Version | Installation |
@@ -29,6 +30,8 @@ Or clone the GitHub PRSKB repository:
 To use the PRS Combinations Software:
 
 ``` git clone https://github.com/jmillerlab/PRS_Combinations.git ```
+
+### Jupyter Notebook
 
 ### Input
 Your input must contain two separate files:
@@ -80,6 +83,7 @@ The data from the PRSKB goes through several processing steps until it is useful
 2. Cleaning
     - Deleting GWAS that cannot compute PRS for all individuals
     - Deleting GWAS that are inaccurate and imprecise. Low variation PRS.
+    - Standardize diagnoses.
 4. Merging
    - Merging of PRSKB output and demographics information
 5. Analysis
