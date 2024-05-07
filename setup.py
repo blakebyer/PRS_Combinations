@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='bbyer04',
+    name='PRS_Combinations',
     version='1.0',
     authors='',
     url='https://github.com/jmillerlab/PRS_Combinations',
