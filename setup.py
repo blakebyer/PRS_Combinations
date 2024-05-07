@@ -3,9 +3,9 @@ from setuptools import setup
 setup(
     name='PRS_Combinations',
     version='1.0',
-    authors='',
+    authors='Hady Sabra, Blake Byer, Leah Moylan, and Justin Miller',
     url='https://github.com/jmillerlab/PRS_Combinations',
-    license='LICENSE.txt',
+    license='',
     description='Polygenic Risk Scores Combinations Project',
     install_requires=[
         "pandas >= 2.0.2",
