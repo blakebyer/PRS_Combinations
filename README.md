@@ -34,7 +34,7 @@ There are three Jupyter notebooks tutorials for how to use the software.
 ### Input
 Your input must contain two separate files:
 1. Tab-separated values (.tsv) file which is an output of the PRSKB. See [an example](Examples/PRSKB/samplePRSKBoutput.tsv).
-2. Comma-separated values (.csv) file which contains demographics information from the Alzheimer's Disease Neuroimaging Initiative. See [an example](Examples/).
+2. Comma-separated values (.csv) file which contains demographics information from the Alzheimer's Disease Neuroimaging Initiative. See [an example](Examples/ADNI/fakeADNI.csv).
 
 #### Downloadable ADNI Files Needed
 | Data  | Disk Space (Megabytes) | Download Time (seconds) |
