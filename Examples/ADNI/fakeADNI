@@ -1,11 +1,23 @@
-PTID	EXAMDATE	AGE	PTGENDER	DX	APOE4	Tau	PTRACCAT	PTAU
-0	2018-07-15	72	Male	MCI	1	215.78	White	25.46
-1	2016-04-23	65	Female	CN	0	151.34	Black	32.18
-2	2022-11-10	80	Male	Dementia	2	281.92	Asian	41.73
-3	2019-09-05	78	Female	MCI	1	198.55	White	19.87
-4	2015-12-30	55	Female	CN	0	120.67	Black	12.95
-5	2023-05-18	88	Male	Dementia	2	299.15	Asian	48.36
-6	2017-08-20	61	Male	CN	0	135.89	White	14.72
-7	2020-10-14	70	Female	MCI	1	223.40	Black	30.10
-8	2014-03-02	45	Male	CN	0	105.78	Asian	11.26
-9	2021-06-07	82	Female	Dementia	1	265.39	White	36.59
+| PTID | EXAMDATE  | AGE | PTGENDER | DX       | APOE4 | Tau    | PTRACCAT | PTAU  |
+|------|-----------|-----|----------|----------|-------|--------|----------|-------|
+| 0    | 2018-07-15| 72  | Male     | MCI      | 1     | 215.78 | White    | 25.46 |
+| 1    | 2016-04-23| 65  | Female   | CN       | 0     | 151.34 | Black    | 32.18 |
+| 2    | 2022-11-10| 80  | Male     | Dementia | 2     | 281.92 | Asian    | 41.73 |
+| 3    | 2019-09-05| 78  | Female   | MCI      | 1     | 198.55 | White    | 19.87 |
+| 4    | 2015-12-30| 55  | Female   | CN       | 0     | 120.67 | Black    | 12.95 |
+| 5    | 2023-05-18| 88  | Male     | Dementia | 2     | 299.15 | Asian    | 48.36 |
+| 6    | 2017-08-20| 61  | Male     | CN       | 0     | 135.89 | White    | 14.72 |
+| 7    | 2020-10-14| 70  | Female   | MCI      | 1     | 223.40 | Black    | 30.10 |
+| 8    | 2014-03-02| 45  | Male     | CN       | 0     | 105.78 | Asian    | 11.26 |
+| 9    | 2021-06-07| 82  | Female   | Dementia | 1     | 265.39 | White    | 36.59 |
+| 10   | 2017-11-29| 67  | Female   | CN       | 0     | 170.25 | Black    | 17.93 |
+| 11   | 2020-02-15| 75  | Male     | MCI      | 1     | 232.18 | Asian    | 27.84 |
+| 12   | 2018-09-03| 63  | Female   | Dementia | 2     | 189.76 | White    | 22.05 |
+| 13   | 2015-06-20| 58  | Male     | CN       | 0     | 143.67 | Black    | 15.60 |
+| 14   | 2024-01-10| 85  | Female   | MCI      | 1     | 273.90 | Asian    | 45.28 |
+| 15   | 2016-08-07| 60  | Male     | CN       | 0     | 128.54 | White    | 13.76 |
+| 16   | 2019-12-22| 68  | Female   | Dementia | 2     | 256.73 | Black    | 38.92 |
+| 17   | 2022-04-18| 77  | Male     | MCI      | 1     | 205.67 | Asian    | 31.47 |
+| 18   | 2013-10-05| 50  | Male     | CN       | 0     | 95.43  | White    | 10.34 |
+| 19   | 2023-09-14| 79  | Female   | Dementia | 1     | 289.17 | Black    | 42.81 |
+| 20   | 2016-12-11| 64  | Male     | MCI      | 1     | 162.83 | Asian    | 20.69 |
