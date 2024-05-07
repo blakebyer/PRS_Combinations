@@ -28,7 +28,8 @@ To use the PRS Combinations Software:
 
 ``` git clone https://github.com/jmillerlab/PRS_Combinations.git ```
 
-### Jupyter Notebook
+### Jupyter Notebooks
+There are three Jupyter notebooks tutorials for how to use the software.
 
 ### Input
 Your input must contain two separate files:
