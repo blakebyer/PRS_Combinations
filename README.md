@@ -15,6 +15,7 @@ We calculated polygenic risk scores for 808 individuals from the Alzheimer's Dis
 | pandas | 2.0.2+ | `pip install pandas` |
 | numpy | 1.26.2+ | `pip install numpy` |
 | scipy | 1.11.4+ | `pip install scipy` |
+| matplotlib | 3.7.1+ | `pip install matplotlib` |
 
 ## Usage
 This software is an accompaniment to the Polygenic Risk Scores Knowledge Base, an online or CLI polygenic risk scores calculator, which contains GWAS summary statistics from the NHGRI-EBI GWAS Catalog. Visit the Polygenic Risk Scores Knowledge Base at: [PRSKB](https://prs.byu.edu/)
