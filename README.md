@@ -19,7 +19,7 @@ python -m pip install numpy
 python -m pip install scipy
 ```
 ## Usage
-The Polygenic Risk Scores Knowledge Base is an online or CLI polygenic risk scores calculator, which contains GWAs summary statistics from the NHGRI-EBI GWAs Catalog.
+The Polygenic Risk Scores Knowledge Base is an online or CLI polygenic risk scores calculator, which contains GWAS summary statistics from the NHGRI-EBI GWAS Catalog.
 Visit the Polygenic Risk Scores Knowledge Base at: [PRSKB](https://prs.byu.edu/)
 
 Or clone the GitHub PRSKB repository:
@@ -32,8 +32,8 @@ To use the PRS Combinations Software:
 
 ### Input
 Your input must contain two separate files:
-1. Tab-separated values (.tsv) file which is an output of the PRSKB. See the Examples branch for an example.
-2. Comma-separated values (.csv) file which contains demographics information from patient data. See the Examples branch for an example.
+1. Tab-separated values (.tsv) file which is an output of the PRSKB. See [an example](Examples/PRSKB).
+2. Comma-separated values (.csv) file which contains demographics information from patient data. See [an example](Examples/).
 
 ### Output
 The standard output is a single comma-separated values (.csv) file, but you may choose from the following outputs:
