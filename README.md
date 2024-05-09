@@ -9,6 +9,7 @@ We calculated polygenic risk scores for 808 individuals from the Alzheimer's Dis
 | --- | --- | --- | 
 | Python  | 3.11+ | [Python](https://www.python.org/downloads/) |
 | R | 4.3+ | [R](https://cran.rstudio.com/index.html) |
+| Jupyter | 1.0.0 | `pip install jupyter` |
 
 | Package | Version | Installation |
 | --- | --- | --- |
