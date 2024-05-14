@@ -30,7 +30,7 @@ To use the PRS Combinations Software:
 ``` git clone https://github.com/jmillerlab/PRS_Combinations.git ```
 
 ### Jupyter Notebooks
-There are three Jupyter notebooks tutorials for how to use the software.
+There is a Jupyter notebook tutorial for how to use the software.
 
 ### Input
 Your input must contain two separate files:
@@ -54,56 +54,22 @@ The standard output is a single comma-separated values (.csv) file, but you may 
 2. TSV
 3. XLSX (Excel)
 
-### Functions
-
-The main prs_combinations.py file has the following functions to clean, sort, and analyze your data:
-- Sort PRSKB Output by Reported Trait
-- Sort by Diagnosis
-- Sort by Demographics
-- Merge DataFrames
-- Drop inaccurate GWAS from DataFrame
-- Calculate mean PRS
-- Kolmogorov-Smirnov Test
-- Mann-Whitney U Test
-- Chi-Squared Test
-- Plot the Results
-
 ### Data Processing
-The data from the PRSKB goes through several processing steps until it is useful. These can be summarized with the following steps:
-1. Sorting
-    - By Trait
-    - By PRS Score Type (Odds Ratio, Beta, Percentiles)
-    - By Study ID
-    - By Sample
-    - By Demographics
-        - Exam Date
-        - Sex
-        - Age
-        - Ethnicity 
-    - Etc.
-2. Cleaning
-    - Deleting GWAS that cannot compute PRS for all individuals
-    - Deleting GWAS that are inaccurate and imprecise. Low variation PRS.
-    - Standardize diagnoses.
-4. Merging
-   - Merging of PRSKB output and demographics information
-5. Analysis
-   - Calculate mean PRS
-   - Kolmogorov-Smirnov Test
-   - Mann-Whitney U Test
-   - Chi-squared Test
-   - Plotting
-
-#### Examples
-
-```
-def filter_df(tsv_df,trait1,trait2):
-    #Create Filtered Dataframe for Reported Trait
-    tsv_df = tsv_df[tsv_df['Reported Trait'].str.contains(trait1|trait2, case=False, regex=True)].reset_index(drop=True)
-    return tsv_df
-
-filter_df(tsv_df, 'Alzheimer','Dementia')
-```
+Each step is its own callable function within the Jupyter Notebook.
+1. Setup config.py file
+2. Import Packages
+3. Initialize DataFrames
+4. Create Filtered DataFrame for Reported Trait
+5. Find Earliest or Latest Diagnosis for Patient in ADNI
+6. Merge Three DataFrames to Clean the Data
+7. Convert Range PRS to Mean of Lower and Upper Bounds
+8. Drop Genome-Wide Association Studies
+9. Calculate Means
+10. Simple Diagnosis for Cases and Controls
+11. Mann-Whitney U Test
+12. Chi-Squared Test
+13. Make Plots
+14. Save Output
 
 ## Acknowlegements
 Thank you to authors Hady Sabra, Blake Byer, Leah Moylan, and Justin Miller.
