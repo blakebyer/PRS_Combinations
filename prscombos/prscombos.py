@@ -193,6 +193,9 @@ def mannwhitneyu(df, gwas_cols=default):
 
     return results_df
 
+demographics = ['PTID','AGE','PTGENDER','PTRACCAT','APOE4','DIAGNOSIS','EXAMDATE'] # Demographics used in some functions
+default = [col for col in df if col not in demographics] # Default gwas, which is all of them
+
 def chi_squared(df, quantile, gwas_cols=default):
     """
     Performs Chi-squared test for top percentile of PRS.
