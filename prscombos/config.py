@@ -12,6 +12,3 @@ dx_dir = Path(r'\logical\path\to\parent\directory')
 dx_path = dx_dir / 'dxsum.csv' # dxsum File Name
 dx_cols = ['RID','DIAGNOSIS','EXAMDATE']
 
-demographics = ['PTID','AGE','PTGENDER','PTRACCAT','APOE4','DIAGNOSIS','EXAMDATE'] # Demographics used in some functions
-default = [col for col in df if col not in demographics] # Default gwas, which is all of them
-
