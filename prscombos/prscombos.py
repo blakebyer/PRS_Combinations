@@ -1,5 +1,5 @@
 """ Import Libraries """
-from config import tsv_path, tsv_cols, adni_path, adni_cols, dx_path, dx_cols, demographics, default
+from config import tsv_path, tsv_cols, adni_path, adni_cols, dx_path, dx_cols
 import pandas as pd
 import numpy as np
 from scipy.stats import gmean, hmean, ranksums, chisquare
