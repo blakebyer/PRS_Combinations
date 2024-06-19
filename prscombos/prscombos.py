@@ -5,10 +5,11 @@ import numpy as np
 from scipy.stats import gmean, hmean, ranksums, chisquare
 import matplotlib.pyplot as plt
 
-""" Initialize DataFrames and Variables """
+""" Initialize DataFrames and Global Variables """
 tsv_df = pd.read_csv(tsv_path, header=0, usecols=tsv_cols, sep='\t')
 adni_df = pd.read_csv(adni_path, header=0, usecols=adni_cols)
 dx_df = pd.read_csv(dx_path, header=0, usecols=dx_cols)
+demographics = ['PTID','AGE','PTGENDER','PTRACCAT','APOE4','DIAGNOSIS','EXAMDATE'] # Demographics used in some functions
 
 def filter_df(df, traits):
     """
@@ -168,7 +169,7 @@ def means_calculations(df):
 
     return df
 
-def mannwhitneyu(df, gwas_cols=default):
+def mannwhitneyu(df):
     """
     Performs Mann-Whitney U test between 'CN' and 'CI' diagnosis groups for each column.
     
@@ -180,8 +181,8 @@ def mannwhitneyu(df, gwas_cols=default):
     pd.DataFrame: DataFrame with results of the Mann-Whitney U tests.
     """
     results_df = pd.DataFrame(columns=['Columns', 'Statistic', 'P-value'])
-  
-    for column in gwas_cols:
+    default = [col for col in df if col not in demographics] # Default gwas, which is all of them
+    for column in default:
         try:
             group1 = df[df['DIAGNOSIS'] == 'CN'][column].dropna()
             group2 = df[df['DIAGNOSIS'] == 'CI'][column].dropna()
@@ -193,10 +194,7 @@ def mannwhitneyu(df, gwas_cols=default):
 
     return results_df
 
-demographics = ['PTID','AGE','PTGENDER','PTRACCAT','APOE4','DIAGNOSIS','EXAMDATE'] # Demographics used in some functions
-default = [col for col in df if col not in demographics] # Default gwas, which is all of them
-
-def chi_squared(df, quantile, gwas_cols=default):
+def chi_squared(df, quantile):
     """
     Performs Chi-squared test for top percentile of PRS.
     
@@ -209,7 +207,8 @@ def chi_squared(df, quantile, gwas_cols=default):
     pd.DataFrame: DataFrame with results of the Chi-squared tests.
     """
     results_df = pd.DataFrame(columns=['Columns', 'Statistic', 'P-value'])
-    for column in gwas_cols:
+    default = [col for col in df if col not in demographics] # Default gwas, which is all of them
+    for column in default:
         df_sorted = df.sort_values(by=column, ascending=False)
     
         cn_count = sum(df["DIAGNOSIS"] == 'CN')
