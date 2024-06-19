@@ -332,9 +332,7 @@ chisq = chi_squared(final_df, 0.8)
 
 # Step 10: Generate and display plots for the statistical tests
 chisq_plot = make_plots(chisq, "Chi-Squared Test")
-print(chisq_plot)
 mannwhitney_plot = make_plots(mannwhitney, "Mann-Whitney U Test")
-print(mannwhitney_plot)
 
 # Uncomment the following line to save the final DataFrame to a CSV file
 # final_csv = save_output(final_df, 'CSV', path) # Example usage
